@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3009267225
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Gem
+    uniqueID: 4234301645
+    locked: 0
+  - name: Effects
+    uniqueID: 927923641
     locked: 0
