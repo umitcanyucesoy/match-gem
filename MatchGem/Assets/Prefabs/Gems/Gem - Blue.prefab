@@ -98,6 +98,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b4565bf59e4b9c83889117fefb18a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _boardGemPosition: {x: 0, y: 0}
+  gemData: {fileID: 11400000, guid: c582675cb26c043e5b7fe60f7ceef4cf, type: 2}
+  gemType: 1
 --- !u!61 &8831652785867865813
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -19,12 +19,23 @@ namespace BoardGame
         [SerializeField] private List<Gem> gems = new List<Gem>();
         public Gem[,] AllGems;
 
+        public static Board Instance { get; private set; }
+        private void Awake()
+        {
+            Instance = this;
+        }
+
         private void Start()
         {
             AllGems = new Gem[width, height];
             CreateBoard();
         }
-        
+
+        private void Update()
+        {
+            MatchFinder.Instance.FindAllMatches();
+        }
+
         private void CreateBoard()
         {
             for (var x = 0; x < width; x++)
